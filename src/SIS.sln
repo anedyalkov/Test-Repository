@@ -6,15 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.HTTP", "SIS.HTTP\SIS.HTTP.csproj", "{B0EFD95C-2CC9-4A0D-AC00-97D65BED98DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{47708129-C3E2-4FE2-8D79-454C78149925}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\srcMyExam\Apps\Panda\Panda.Services\IPackageService.cs = ..\..\srcMyExam\Apps\Panda\Panda.Services\IPackageService.cs
-		..\..\srcMyExam\Apps\Panda\Panda.Services\IReceiptService.cs = ..\..\srcMyExam\Apps\Panda\Panda.Services\IReceiptService.cs
-		..\..\srcMyExam\Apps\Panda\Panda.Services\IUserService.cs = ..\..\srcMyExam\Apps\Panda\Panda.Services\IUserService.cs
-		..\..\srcMyExam\Apps\Panda\Panda.Services\PackageService.cs = ..\..\srcMyExam\Apps\Panda\Panda.Services\PackageService.cs
-		..\..\srcMyExam\Apps\Panda\Panda.Services\Panda.Services.csproj = ..\..\srcMyExam\Apps\Panda\Panda.Services\Panda.Services.csproj
-		..\..\srcMyExam\Apps\Panda\Panda.Services\ReceiptService.cs = ..\..\srcMyExam\Apps\Panda\Panda.Services\ReceiptService.cs
-		..\..\srcMyExam\Apps\Panda\Panda.Services\UserService.cs = ..\..\srcMyExam\Apps\Panda\Panda.Services\UserService.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IRunes", "IRunes", "{975FA711-98C2-4CAD-8DED-A2FFFB965F9A}"
 EndProject
@@ -39,6 +30,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musaca.Data", "Apps\Musaca\Musaca.Data\Musaca.Data.csproj", "{990C350B-62A4-413B-8FF1-FC92DA3B5AF2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musaca.Models", "Apps\Musaca\Musaca.Models\Musaca.Models.csproj", "{78EA73C3-C3A7-46C6-ABAE-73FE17EB85E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Panda", "Panda", "{0C9BFEE3-FAFA-414A-BF98-ED5EB34D8ED6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.App", "..\..\srcMyExam\Apps\Panda\Panda.App\Panda.App.csproj", "{3036F2A5-BE63-407A-A573-E08358F8F794}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.Data", "..\..\srcMyExam\Apps\Panda\Panda.Data\Panda.Data.csproj", "{02BF9216-C86E-4DED-8A41-1729A34B58D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.Services", "..\..\srcMyExam\Apps\Panda\Panda.Services\Panda.Services.csproj", "{8A2D20CF-C299-4A7C-AADF-AEB46385A3F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +89,18 @@ Global
 		{78EA73C3-C3A7-46C6-ABAE-73FE17EB85E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78EA73C3-C3A7-46C6-ABAE-73FE17EB85E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78EA73C3-C3A7-46C6-ABAE-73FE17EB85E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3036F2A5-BE63-407A-A573-E08358F8F794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3036F2A5-BE63-407A-A573-E08358F8F794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3036F2A5-BE63-407A-A573-E08358F8F794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3036F2A5-BE63-407A-A573-E08358F8F794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BF9216-C86E-4DED-8A41-1729A34B58D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BF9216-C86E-4DED-8A41-1729A34B58D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BF9216-C86E-4DED-8A41-1729A34B58D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BF9216-C86E-4DED-8A41-1729A34B58D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2D20CF-C299-4A7C-AADF-AEB46385A3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2D20CF-C299-4A7C-AADF-AEB46385A3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2D20CF-C299-4A7C-AADF-AEB46385A3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2D20CF-C299-4A7C-AADF-AEB46385A3F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +116,10 @@ Global
 		{42E82291-A786-4A3C-AEBB-FB16642F9F2E} = {B0AAED45-9EFB-4470-ADCF-66707F7F48FF}
 		{990C350B-62A4-413B-8FF1-FC92DA3B5AF2} = {B0AAED45-9EFB-4470-ADCF-66707F7F48FF}
 		{78EA73C3-C3A7-46C6-ABAE-73FE17EB85E1} = {B0AAED45-9EFB-4470-ADCF-66707F7F48FF}
+		{0C9BFEE3-FAFA-414A-BF98-ED5EB34D8ED6} = {47708129-C3E2-4FE2-8D79-454C78149925}
+		{3036F2A5-BE63-407A-A573-E08358F8F794} = {0C9BFEE3-FAFA-414A-BF98-ED5EB34D8ED6}
+		{02BF9216-C86E-4DED-8A41-1729A34B58D0} = {0C9BFEE3-FAFA-414A-BF98-ED5EB34D8ED6}
+		{8A2D20CF-C299-4A7C-AADF-AEB46385A3F6} = {0C9BFEE3-FAFA-414A-BF98-ED5EB34D8ED6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95749778-C448-4913-B813-04C78D964222}
